@@ -26,7 +26,7 @@ Response:
 ```json
 {
     "code": "number",
-    "status: "string",
+    "status": "string",
     "data": {
         "id": "number",
         "name": "string",
@@ -48,7 +48,7 @@ Response:
 ```json
 {
     "code": "number",
-    "status: "string",
+    "status": "string",
     "data": {
         "id": "number",
         "name": "string",
@@ -81,7 +81,7 @@ Response:
 ```json
 {
     "code": "number",
-    "status: "string",
+    "status": "string",
     "data": {
         "id": "number",
         "name": "string",
@@ -98,11 +98,12 @@ Request :
 - Endpoint : "/api/products/:id"
 - Headers : 
     - Accept : application/json
+
 Response: 
 ```json
 {
     "code": "number",
-    "status: "string",
+    "status": "string",
 }
 ```
 
@@ -118,7 +119,7 @@ Response:
 ```json
 {
     "code": "number",
-    "status: "string",
+    "status": "string",
     "data": [
         {
         "id": "number",
