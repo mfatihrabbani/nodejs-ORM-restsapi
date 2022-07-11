@@ -18,6 +18,7 @@ app.use("/", (err, req, res, next) => {
 	if(!err) next();
 	const code = err.status || 500;
 	const message = err.message;
+	console.log({code, message})
 
 	return res.status(code).json({code, message});
 })
